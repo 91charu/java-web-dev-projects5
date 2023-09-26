@@ -21,6 +21,9 @@ private int duration;
     @Override
     public void spinDisc() {
         System.out.println("A DVD spins at "+getSpinSpeed()+"\n");
+    /*for(int i=maxSpinSpeed;i>2000;i++){ maxSpinSpeed:1000;
+        System.out.println("i am working properly");
+    }*/
     }
 
     @Override
