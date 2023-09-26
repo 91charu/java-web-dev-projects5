@@ -16,7 +16,7 @@ public class Main {
         System.out.println(cd.writeData(275));
         System.out.println(dvd.writeData(8000));
 
-        System.out.println(cd.diskInfo());
-        System.out.println(dvd.diskInfo());
+        //System.out.println(cd.diskInfo());
+        //System.out.println(dvd.diskInfo());
     }
 }
