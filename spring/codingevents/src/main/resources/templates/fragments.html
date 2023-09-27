@@ -2,12 +2,14 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head>
     <meta charset="UTF-8"/>
-    <title>Home Page</title>
+    <title>Fragments</title>
 </head>
 <body>
-<h1>Welcome to the Home Page</h1>
-<nav th:replace="fragments :: navigation">
-</nav>
 
+<nav th:fragment="navigation">
+
+        <a href="/events">All Events</a>
+
+</nav>
 </body>
 </html>
